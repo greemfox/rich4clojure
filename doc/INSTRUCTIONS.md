@@ -72,7 +72,7 @@ Each problem has at least:
     (def __ :tests-will-fail)
     ```
     * The tests reference this symbol. You are sometimes supposed to redefine it to something that makes the tests pass, and sometimes you will need to edit the `(tests ...)` form and replace this symbol with something else.
-1. An ”open” `(comment ...)` form (a Rich Comment Form, RFC)
+1. An ”open” `(comment ...)` form (a Rich Comment Form, RCF)
 1. A `(tests ...)` form
 
 Some problems also have restrictions, e.g:
@@ -81,7 +81,7 @@ Some problems also have restrictions, e.g:
 (def restricted [map mapcat])
 ```
 
-Restrictions list ”things” shipped with **Clojure** that your solution is not allowed to use. Your editor's *lookup* features can give you documentation and defintions for the restricted symbols. Sometimes using the restricted ”things” in your solution, or just peeking at their documentation can help you find solutions that don't use them.
+Restrictions list ”things” shipped with **Clojure** that your solution is not allowed to use. Your editor's *lookup* features can give you documentation and definitions for the restricted symbols. Sometimes using the restricted ”things” in your solution, or just peeking at their documentation can help you find solutions that don't use them.
 
 ### Running the tests
 
